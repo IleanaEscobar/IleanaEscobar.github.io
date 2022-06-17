@@ -4,7 +4,7 @@ const searchResultsElement = document.querySelector('#search-results');
 const movieElement = document.getElementById("movie-grid");
 const api_key = "336ab2e023e28be34655b19be0fd9c48"
 const search_url = 'https://api.themoviedb.org/3/search/movie?api_key=336ab2e023e28be34655b19be0fd9c48&query=' 
-const video_search_url = 'http://api.themoviedb.org/3/movie/'
+const video_search_url = 'https://api.themoviedb.org/3/movie/'
 var movies = [];
 var page_number = 0;
 var searched = false;
