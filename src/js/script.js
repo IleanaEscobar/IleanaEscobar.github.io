@@ -66,7 +66,7 @@ function openNavigation() {
             document.querySelector(".popup-content").innerHTML = `
             <div class="iframe-wrap">
             <p id="trailer-header">Trailer</p>
-            <iframe id="trailer_video" src = "https://www.youtube.com/embed/${video_url}" width = 550 height = 340 frameborder="0" allowfullscreen></iframe>
+            <iframe id="trailer_video" src = "https://www.youtube.com/embed/${video_url}" width = "550" height = "340" frameborder="0" allowfullscreen></iframe>
             </div>
             `;
             // <div class="caption">${overview}</div>
